@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om mig</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="mobil.css">
+    <link rel="stylesheet" href="tablet.css">
+
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="/">
+                <img src="img/logo.webp" alt="Logo">
+            </a>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="projekter.html">PROJEKTER</a></li>
+                <li><a href="ommig.html">OM MIG</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main_forside">
+        <div class="hero">
+            <img class="heroimg" src="img/ommig.webp" alt="Hero">
+        </div>
+
+        <section class="ommig">
+            <div class="about">
+                <img src="img/cv-billede2.webp" alt="img" width="400">
+                <div class="about-text">
+                    <h1>Hvem er jeg?</h1>
+                    <h5>Daniela Parisa Rezai</h5>
+                    <p>Mit navn er Daniela og jeg er 24 år gammel. Jeg er fra Göteborg i Sverige og flyttede til
+                        København
+                        for fire år siden. Jeg bor på Østerbro med min danske kæreste og har tidligere arbejdet som
+                        Salgskoordinator og Graphic Designer på GoGift/Nordisk Film, hvilket jeg har fået lov til at
+                        beholde
+                        som studiejob.
+                        <br><br>I
+                        min fritid elsker
+                        jeg en hverdag der er fyldt med variation og afprøve nye hobbies, som jeg kan finde på at nørde
+                        i
+                        flere uger. <br> <br>Jeg
+                        har
+                        valgt
+                        multimediedesigner-uddannelsen, da jeg altid har været interesseret i selv at skabe og designe.
+                        Jeg
+                        elsker at være kreativ både visuelt og fysisk. Jeg fik interesse for uddannelsen på KEA gennem
+                        mit
+                        job, da jeg tidligere har arbejdet med kodning, templates og design af gavekort. Jeg har netop
+                        blevet
+                        forfremmet til API-koordinator på GoGift, hvor jeg kommer til at arbejde med API-løsninger for
+                        kunder
+                        , samt holde møder med virksomheder.
+                        Da første semester nu er ved at lakke mod enden, føler jeg mig godt klædt på til de kommende
+                        opgaver
+                        og udfordringer
+                        som studiet
+                        har at byde på, samt kunne udnytte disse i en jobmæssig kontekst. Multimediedesign uddannelsen
+                        har
+                        bekræftet mig i
+                        at jeg skal arbejde indenfor et felt hvor jeg kan udtrykke mig kreativt, men samtidig har
+                        pladsen
+                        til at fordybe mig
+                        i tungere tekniske færdigheder, hvilket for mig især er selve programmeringen.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="info">
+            <button class="accordion" onclick="togglePanel(this)">
+                Uddannelse
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="panel">
+                <ul>
+                    <li>2015-2018 Samhällsbyggnad & Teknik på Sven Eriksonsgymnasiet</li>
+                    <li>2023-2025 Multimedie design på KEA Københamns Erhvervsakademi</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="info">
+            <button class="accordion" onclick="togglePanel(this)">
+                Job
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="panel">
+                <ul>
+                    <li>Jan. 2024- API- koordinator på GoGift/Nordisk Film/Egmont</li>
+                    <li>Sep. 2022- Dec.2023 Salgskoordinator & Graphic Desinger på GoGift/Nordisk Film/Egmont</li>
+                    <li>Nov. 2021- Aug.2022 Customer Service Agent på GoGift/Nordisk Film/Egmont</li>
+                    <li>Nov. 2020- Aug.2021 Customer Success Specialist på Fitnessguru</li>
+                    <li>Jan. 2020- Okt.2021 Sales Advisor på Gina Tricot</li>
+                    <li>Aug. 2019- Dec.2019 First Line Agent på H&M</li>
+                    <li>Maj. 2015- Okt.2018 Deli Cook på Ica City</li>
+                    <li>Jan. 2014- Dec.2017 Twirling Baton Coach på Fristads Drill</li>
+                </ul>
+            </div>
+        </div>
+        <div class="info">
+            <button class="accordion" onclick="togglePanel(this)">
+                Programmer
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="panel">
+                <ul>
+                    <li>Adobe Photoshop</li>
+                    <li>Adobe Illustrator</li>
+                    <li>Adobe InDesign</li>
+                    <li>Adobe Premiere Pro</li>
+                    <li>Figma & Figjam</li>
+                    <li>VS Code</li>
+                    <li>GitHub</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="info">
+            <button class="accordion" onclick="togglePanel(this)">
+                Kompetancer
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="panel">
+                <ul>
+                    <li>Designprincipper</li>
+                    <li>Brugergrænseflader</li>
+                    <li>Brugerengagement</li>
+                    <li>Programmering</li>
+                    <li>Animation</li>
+                    <li>Designkonventioner</li>
+                    <li>Stiludtryk</li>
+                    <li>Videoprodokution</li>
+                    <li>Kundeopsøgning</li>
+                    <li>Brugervenlighed</li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div>
+                <h3>Af Daniela Parisa Rezai</h3>
+                <p>Multimediedesign Hold B</p><br><br>
+                <h3>Kontakt</h3>
+                <p>E-mail:ela_rezai@hotmail.com </p>
+                <p>Telefon: +46704678916</p> <br><br>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="menu.js"></script>
+    <script src="script.js"></script>
+</body>
+
+
+</html>

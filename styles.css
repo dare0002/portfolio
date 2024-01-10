@@ -1,0 +1,321 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+    background-image: linear-gradient(to bottom, #BDBFC0 0%, #C2B6C0 50%);
+}
+    
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+    align-self: stretch;
+    object-fit: cover;
+}
+
+.main_forside {
+    max-width: inherit;
+}
+
+ h1{
+    font-family: 'EB Garamond', serif;
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight:  400;
+    text-transform: uppercase;
+    letter-spacing: .16em;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+h2{
+    font-family: 'EB Garamond', serif;
+    color: #ffffff;
+    font-size: 1.7rem;
+    font-weight:  400;
+    text-transform: uppercase;
+    letter-spacing: .16em;
+}
+
+h3{
+    font-family: 'EB Garamond', serif;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight:  400;
+    letter-spacing: .16em;
+}
+
+h4{
+    font-family: 'EB Garamond', serif;
+    color: #444141;
+    font-size: 1rem;
+    font-weight:  400;
+    letter-spacing: .16em;
+}
+
+h5{
+    font-family: 'EB Garamond', serif;
+    color: #444141;
+    font-size: 1.5rem;
+    font-weight:  400;
+    letter-spacing: .16em;
+    margin-bottom: 25px;
+}
+
+p{
+    font-family: 'EB Garamond', serif;
+    color: #444141;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+
+
+/* Footer */
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+/* Projekter */
+.projekter {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.projekter li {
+    margin-right: 40px; 
+}
+.projekter a {
+    text-decoration: none;
+    color: #ffffff; 
+    font-weight: bold; 
+    font-size: 1.5rem;
+}
+.projekter a:hover{
+    color: rgb(219, 142, 178);
+}
+.projekter a{
+    font-family: 'EB Garamond', serif;
+    color: #ffffff;
+    font-size: 1.7rem;
+    font-weight:  400;
+    text-transform: uppercase;
+    letter-spacing: .16em;
+}
+/* Projekter slutter */
+
+
+
+
+/* Om Mig starter */
+
+.ommig {
+    width: 100%;
+    padding: 78px 0px;
+    display: flex; 
+    grid-template-columns: 1fr 1fr;
+}
+.ommig img{
+    height: auto;
+    width: 400px;
+}
+.about{
+    width: 1200px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text{
+    width: 550px;
+}
+.about-text p{
+    margin-bottom: 45px;
+}
+
+.panel {
+    display: none;
+    padding: 10px;
+    overflow: hidden;
+  }
+
+  .accordion {
+    cursor: pointer;
+    padding: 10px;
+    width: 700px;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-family: 'EB Garamond', serif;
+    color: #444141;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+  }
+
+  .info{
+    max-width: 75%;
+    margin: auto;
+  }
+
+.info ul{
+    font-family: 'EB Garamond', serif;
+    color: #444141;
+    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+  }
+
+
+  /* Tema 2 */
+
+.tema2_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 9%;
+}
+
+.tema2_text {
+  margin-left: 5%;
+  top: 6%;
+  margin-right: 15%;
+  position: relative;
+  line-height: 2;
+  margin-bottom: 25%;
+}
+
+.tema2_link{
+    font-family: 'EB Garamond', serif;
+    color: #444141;
+    font-size: 1.2rem;
+}
+
+/* Tema 3 */
+
+.tema3_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 9%;
+}
+
+.tema3_text{
+  margin-left: 5%;
+  top: -1%;
+  margin-right: 15%;
+  position: relative;
+  line-height: 2;
+  margin-bottom: 25%;
+}
+
+.tema3_link{
+    font-family: 'EB Garamond', serif;
+    color: #444141;
+    font-size: 1.2rem;
+}
+
+
+/* Tema 4 */
+
+.tema4_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 9%;
+}
+
+.tema4_text{
+    margin-left: 5%;
+    top: -1%;
+    margin-right: 15%;
+    position: relative;
+    line-height: 2;
+    margin-bottom: 25%;
+}
+
+.tema4_link{
+    font-family: 'EB Garamond', serif;
+    color: #444141;
+    font-size: 1.2rem;
+}
+
+.process_img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.teknik{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 11%;
+}
+
+.tema4_text-1{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 11%;
+    top: -1%;
+    margin-right: 15%;
+    position: relative;
+    line-height: 2;
+    margin-bottom: 15px;
+    
+}
+
+/* Tema 5 */
+
+.tema5_forside{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 15%;
+    margin-bottom: 60px;
+}
+
+h2{
+    padding: 0 40%;
+}
+
+.tema5_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 9%;
+}
+
+.tema5_text {
+    margin-left: 5%;
+    top: -5%;
+    margin-right: 15%;
+    position: relative;
+    line-height: 2;
+    margin-bottom: 25%;
+}
+
+.tema5_link{
+    font-family: 'EB Garamond', serif;
+    color: #444141;
+    font-size: 1.2rem;
+}
+
+
+

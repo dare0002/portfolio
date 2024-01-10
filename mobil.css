@@ -1,0 +1,102 @@
+@media screen and (max-width: 800px) {
+
+  .projekter{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projekter li{
+    margin-bottom: 10px;
+  }
+
+  .ommig {
+    display: flex;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .about {
+        flex-direction: column; 
+    }
+
+    .about-text{
+        max-width: 100%;
+    margin: auto;
+    }
+
+   .about img {
+        margin-bottom: 20px; 
+    }
+
+   .accordion{
+    max-width: 100%;
+    margin: auto;
+  }
+
+   /* Tema 2 */
+
+  .tema2_grid {
+    display: block;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+  }
+
+  .tema2_grid img{
+    margin-bottom: 20px;
+  }
+
+    img {
+    width: 100%;
+    height: auto;
+  }
+
+  .tema3_grid {
+    display: block;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+  }
+
+  .tema3_grid img{
+    margin-bottom: 20px;
+  }
+
+    /* Tema 4 */
+
+  .tema4_grid{
+    display: block;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+  }
+
+  .tema4_grid img{
+    margin-bottom: 20px;
+  }
+
+    /* Tema 5 */
+
+  .tema5_grid{
+    display: block;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+  }
+
+  .tema5_grid img{
+    margin-bottom: 20px;
+  }
+
+  .tema5_forside img{
+    width: 600px;
+    margin: 0;
+  }
+
+
+  }
+
+ 
+    
+
